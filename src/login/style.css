@@ -1,0 +1,47 @@
+.loginContent{
+    color:#b2b2b2;
+    background-color: #333333;
+    height: 100%;
+}
+.loginForm{
+    padding: 30px 30px;
+    text-align: center;
+    width: 300px;
+    border: solid 1px #b2b2b2;
+    margin: 0 auto;
+    position: relative;
+    top:100px;
+}
+.loginForm input{
+    width: 200px;
+    height: 25px;
+    margin: 10px;
+    padding-left: 25px;
+    font-size: large;
+    border-radius: 5px;
+}
+.loginForm input[type="text"]{
+    background-image: url("../image/账户.png");
+    background-repeat: no-repeat;
+    background-size: 21px;
+}
+.loginForm input[type="password"]{
+    background-image: url("../image/密码.png");
+    background-repeat: no-repeat;
+    background-size: 21px;
+    background-position: 2px 2px;
+}
+.loginForm button{
+    width: 200px;
+    height:30px;
+    margin-top: 10px;
+    border-radius: 15px;
+    outline: none;
+    background-color: #b2b2b2;
+    border: none;
+}
+.loginForm button:active{
+    position: relative;
+    top:3px;
+    left:2px;
+}
